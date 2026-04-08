@@ -5,7 +5,7 @@ from models import EmailAction, EmailObservation, EmailReward
 app = FastAPI(title="Email Triage OpenEnv")
 env = EmailTriageEnv()
 
-@app.get("/reset")
+@app.post("/reset")
 def reset() -> EmailObservation:
     """The AI calls this to start over."""
     return env.reset()
