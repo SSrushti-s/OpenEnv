@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from server.environment import EmailTriageEnv
+from environment import EmailTriageEnv
 from models import EmailAction, EmailObservation, EmailReward
 
 app = FastAPI(title="Email Triage OpenEnv")
