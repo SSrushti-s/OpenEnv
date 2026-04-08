@@ -11,3 +11,5 @@ spec:
   observation_model: "models.EmailObservation"
   action_model: "models.EmailAction"
   reward_model: "models.EmailReward"
+
+server_path: "app.py"
