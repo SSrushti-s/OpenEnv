@@ -13,3 +13,5 @@ spec:
   reward_model: "models.EmailReward"
 
 server_path: "app.py"
+# In openenv.yaml
+submission_cmd: "python inference.py"
