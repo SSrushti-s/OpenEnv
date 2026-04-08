@@ -11,7 +11,7 @@ def run_baseline():
     base_url = "http://localhost:7860"
     
     print("--- Starting Baseline Run ---")
-    obs = requests.get(f"{base_url}/reset").json()
+    obs = requests.post(f"{base_url}/reset").json()
     
     for i in range(5): # Limit to 5 actions
         print(f"Current Inbox: {obs['unread_count']} emails.")
