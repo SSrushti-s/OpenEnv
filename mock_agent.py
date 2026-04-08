@@ -8,7 +8,7 @@ def run_mock_agent():
     print("🚀 Starting Mock Agent (Free Version)...")
     
     # 1. Reset the environment to get the initial emails
-    response = requests.get(f"{BASE_URL}/reset")
+    response = requests.post(f"{BASE_URL}/reset")
     if response.status_code != 200:
         print("❌ Error: Is your server running? Run 'python server/app.py' first.")
         return
