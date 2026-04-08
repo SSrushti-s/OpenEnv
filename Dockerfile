@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV PYTHONPATH=/app
 
 # 6. Run the app on port 7860 (Hugging Face's default)
-CMD ["python", "server/app.py"]
+CMD ["python", "app.py"]
