@@ -6,7 +6,7 @@ This project is a complete, real-world simulation of an email triage task design
 
 ## 🚀 Live Demo
 The environment is containerized and running on Hugging Face Spaces:
-🔗 **[Insert Your Hugging Face Space URL Here]**
+🔗 **(https://srushtis16-mywork.hf.space/docs)**
 
 ---
 
