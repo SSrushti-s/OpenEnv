@@ -1,0 +1,13 @@
+version: "1.0.0"
+metadata:
+  name: "email-triage-pro"
+  description: "A real-world simulation of a high-volume corporate inbox triage task."
+  category: "productivity"
+  difficulty_levels: ["easy", "medium", "hard"]
+  tags: ["email", "nlp", "organization"]
+
+# This tells the system where to find your Pydantic classes
+spec:
+  observation_model: "models.EmailObservation"
+  action_model: "models.EmailAction"
+  reward_model: "models.EmailReward"
